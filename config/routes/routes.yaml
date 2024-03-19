@@ -1,0 +1,11 @@
+# config/routes.yaml
+
+# Main page index
+dash_public:
+  path: /
+  controller: App\Controller\MainController::dash_public
+
+# Dashboard after login
+dash_auth:
+  path: /dash_auth
+  controller: App\Controller\MainController::dash_auth
